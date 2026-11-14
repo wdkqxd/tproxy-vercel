@@ -2,7 +2,7 @@
 
 A TypeScript implementation of the Telegram WEB proxy for Vercel.
 
-This project is based on [telegramdesktop/tproxy-server](https://github.com/telegramdesktop/tproxy-server). The reason i did this is that a proper MTProxy requires a server and an open port, and deploying on Vercel makes it possible to set all of this up for free.
+This project is based on [telegramdesktop/tproxy-server](https://github.com/telegramdesktop/tproxy-server), but it connects directly to Telegram DC. The reason i did this is that a proper MTProxy requires a server and an open port, and deploying on Vercel makes it possible to set all of this up for free.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/wdkqxd/tproxy-vercel&env=TPROXY_HOST,TPROXY_SECRET,TPROXY_TOKEN_KEY)
 
